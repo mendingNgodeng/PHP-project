@@ -23,5 +23,10 @@ class Controller {
         require_once __DIR__ . '/../app/views/' . $view . '.php';
     }
 
+    protected function isAjaxRequest() {
+        return !empty($_SERVER['HTTP_X_REQUESTED_WITH']) &&
+               strtolower($_SERVER['HTTP_X_REQUESTED_WITH']) == 'xmlhttprequest';
+    }
+
 }
 

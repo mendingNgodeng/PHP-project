@@ -19,6 +19,8 @@
 
     <!-- Custom styles for this template-->
     <link href="<?= base_url ?>assets/sb-admin-2.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="<?= base_url ?>assets/toast/toast.css">
+   
     <!-- DataTables CSS -->
 <link href="<?= base_url ?>assets/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
 

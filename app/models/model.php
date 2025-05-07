@@ -41,14 +41,14 @@ class Model extends Database{
         return $this->conn->query($query);
     }
 
-    function update_data($table, $data, $id) {
+    function update_data($table, $data, $id_data, $id) {
         $set = '';
         foreach ($data as $column => $value) {
             $set .= "$column = '{$this->conn->real_escape_string($value)}', ";
         }
         $set = rtrim($set, ', '); // Remove trailing comma
 
-        $query = "UPDATE $table SET $set WHERE id_guru = $id";
+        $query = "UPDATE $table SET $set WHERE $id_data = $id";
         
         if ($this->conn->query($query)) {
             return true;
@@ -57,8 +57,8 @@ class Model extends Database{
         }
     }
 
-    function delete_data($table, $id){
-        $query = "DELETE FROM $table WHERE id_guru = $id";
+    function delete_data($table,$id_data, $id){
+        $query = "DELETE FROM $table WHERE $id_data = $id";
         return $this->conn->query($query);
         
     }

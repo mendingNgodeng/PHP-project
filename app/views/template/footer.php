@@ -19,6 +19,19 @@
             </div>
         </div>
     </div>
+
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+  <div id="liveToast" class="toast bg-success text-white" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto">Success</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body" id="toastBody">
+      Message goes here
+    </div>
+  </div>
+</div>
+
 </body>
 <script src="<?= base_url ?>assets/jquery/jquery.js"></script>
 <script src="<?= base_url ?>assets/jquery-easing/jquery.easing.min.js"></script>
@@ -43,4 +56,4 @@ $(document).ready(function() {
     });
 });
 </script>
-</html>
+

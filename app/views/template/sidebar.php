@@ -30,7 +30,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Interface
+                Menu
             </div>
 
             <!-- Nav Item - Pages Collapse Menu -->
