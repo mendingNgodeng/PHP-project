@@ -1,4 +1,8 @@
+<<<<<<< HEAD
     </div>
+=======
+</div>
+>>>>>>> 910ce2ad4b486c3faf039d6af2f1c7d87dcb9eec
     <!-- Bootstrap core JavaScript-->
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -19,6 +23,22 @@
             </div>
         </div>
     </div>
+<<<<<<< HEAD
+=======
+
+    <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;">
+  <div id="liveToast" class="toast bg-success text-white" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <strong class="me-auto">Success</strong>
+      <button type="button" class="btn-close" data-bs-dismiss="toast"></button>
+    </div>
+    <div class="toast-body" id="toastBody">
+      Message goes here
+    </div>
+  </div>
+</div>
+
+>>>>>>> 910ce2ad4b486c3faf039d6af2f1c7d87dcb9eec
 </body>
 <script src="<?= base_url ?>assets/jquery/jquery.js"></script>
 <script src="<?= base_url ?>assets/jquery-easing/jquery.easing.min.js"></script>
@@ -44,6 +64,7 @@ $(document).ready(function() {
 });
 </script>
 
+<<<<<<< HEAD
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
   $('#addUserForm').submit(function(e) {
@@ -67,3 +88,5 @@ $(document).ready(function() {
 </script>
 
 </html>
+=======
+>>>>>>> 910ce2ad4b486c3faf039d6af2f1c7d87dcb9eec

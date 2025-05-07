@@ -1,7 +1,11 @@
 <?php
 class Database {
     private $host = "localhost";
+<<<<<<< HEAD
     private $db= "db_simsek";
+=======
+    private $db= "produk";
+>>>>>>> 910ce2ad4b486c3faf039d6af2f1c7d87dcb9eec
     private $username = "root";
     private $password = "";
     public $conn;
